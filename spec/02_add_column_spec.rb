@@ -1,4 +1,4 @@
-require_relative 'spec_helper'
+require 'spec_helper'
 require_relative '../db/migrate/01_create_students'
 require_relative '../db/migrate/02_add_grade_and_birthdate_to_students'
 
