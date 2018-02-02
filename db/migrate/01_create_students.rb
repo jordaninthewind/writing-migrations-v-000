@@ -3,5 +3,5 @@ class CreateStudents < ActiveRecord::Migration
     create_table :students do | el |
       el.string :name
     end
-end
+  end
 end
