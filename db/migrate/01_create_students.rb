@@ -1,5 +1,7 @@
 class CreateStudents < ActiveRecord::Migration
   def change
-    add_column :students, :name, :string
+  create_table :students do | el |
+    el.string :name
   end
+end
 end
